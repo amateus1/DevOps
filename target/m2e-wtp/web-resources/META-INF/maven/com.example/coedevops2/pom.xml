@@ -92,8 +92,7 @@
   				<version>2.5.1</version>
   				<configuration>
     				<checkModificationExcludes>
-        				<checkModificationExclude>pom.xml</checkModificationExclude>
-    					</checkModificationExcludes>
+
     				<tagNameFormat>v@{project.version}</tagNameFormat>
     				<autoVersionSubmodules>true</autoVersionSubmodules>
   				</configuration>
