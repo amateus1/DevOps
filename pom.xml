@@ -12,7 +12,7 @@
 	
 	<groupId>com.example</groupId>
 	<artifactId>coedevops2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>coedevops2</name>
 	<description>Devops Demo Project</description>
@@ -92,9 +92,9 @@
   				<version>2.5.1</version>
   				<configuration>
     				<checkModificationExcludes>
-      					<checkModificationExclude>pom.xml</checkModificationExclude>
-   					 </checkModificationExcludes>
-    				<tagNameFormat>v@{project.version}</tagNameFormat>
+    		     	<checkModificationExclude>pom.xml</checkModificationExclude>
+    					</checkModificationExcludes>		
+        <tagNameFormat>v@{project.version}</tagNameFormat>
     				<autoVersionSubmodules>true</autoVersionSubmodules>
   				</configuration>
 			</plugin>
